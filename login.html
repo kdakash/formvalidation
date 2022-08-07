@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> LOGIN </title>
+    <style>
+                    
+        .center {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border: 5px solid #FFFF00;
+            padding: 10px;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: red;
+            color: white;
+            text-align: center;
+}
+</style>
+
+</head>
+<body>
+    <div class="center">
+        <form onsubmit="return onlogin(); " action="dashboard.html" id="form">
+
+            <label for="logincatid"> ENTER YOUR CATERPILLAR ID: 
+                <input type="number" id="logincatid">
+            </label> <br>
+    
+            <label for="loginpwd"> ENTER YOUR PASSWORD:
+                <input type="text" id="loginpwd">
+            </label> <br> 
+    
+           <input type="submit">
+    
+    
+    
+    
+    
+        </form>
+
+       
+       
+    </div>
+
+    <div class="footer">
+  
+        <a href="/signup.html">   <button id="signup"> SIGN UP</button> </a>
+         <a href="/login.html">  <button id="login" disabled> LOG IN </button> </a>
+   
+   
+   
+   
+   
+       </div>
+
+    <script src="index.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SIGN UP</title>
+    <style>
+                    
+        .center {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: 5px solid #FFFF00;
+        padding: 10px;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: red;
+            color: white;
+            text-align: center;
+}
+</style>
+
+</head>
+<body>
+    <div class="center">
+        <form  onclick="return gettingDataforRegistration();view(username);"  action="dashboard.html">
+            <label for="username"> ENTER YOUR NAME: 
+                <input type="text" id="username">
+            </label> <br>
+            <label for="phonenumber"> ENTER YOUR phone number: 
+                <input type="number" id="phonenumber">
+            </label> <br>
+            <label for="age"> ENTER YOUR age: 
+                <input type="number" id="age">
+            </label> <br>
+            <label for="mailid"> ENTER YOUR MAIL ID:
+                <input type="email" id="mailid">
+            </label> <br>
+           
+            <label for="pwd"> ENTER YOUR PASSWORD: 
+                <input type="text" id="pwd">
+            </label> <br>
+    
+            <input type="submit" value="register">
+        </form>
+    
+    </div>
+
+    <div class="footer">
+  
+        <a href="/signup.html">   <button id="signup" disabled> SIGN UP</button> </a>
+         <a href="/login.html">  <button id="login"> LOG IN </button> </a>
+   
+   
+   
+   
+   
+       </div>
+
+
+    <script src="index.js" defer></script>
+</body>
+</html>
+
+
+<!-- <label for="catid"> ENTER YOUR CATERPILLAR ID: 
+                <input type="number" id="catid">
+            </label> <br> -->
